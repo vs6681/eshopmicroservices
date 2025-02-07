@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{4DC34365-15A6-4823-A6AA-18B2516B77F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{47B507CF-822E-4DAD-BB31-F37D786EA6FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{47B507CF-822E-4DAD-BB31-F37D786EA6FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{F178604B-8747-4EB4-916F-6F85E308509D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{C0AA13DF-F93E-4869-B591-241555A45908}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{47B507CF-822E-4DAD-BB31-F37D786EA6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47B507CF-822E-4DAD-BB31-F37D786EA6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47B507CF-822E-4DAD-BB31-F37D786EA6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AA13DF-F93E-4869-B591-241555A45908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AA13DF-F93E-4869-B591-241555A45908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AA13DF-F93E-4869-B591-241555A45908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AA13DF-F93E-4869-B591-241555A45908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4DC34365-15A6-4823-A6AA-18B2516B77F2} = {9DCB5A67-52A0-4EC6-8114-E9060E0B7B85}
 		{47B507CF-822E-4DAD-BB31-F37D786EA6FE} = {4DC34365-15A6-4823-A6AA-18B2516B77F2}
+		{C0AA13DF-F93E-4869-B591-241555A45908} = {F178604B-8747-4EB4-916F-6F85E308509D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC126E57-E337-4C94-8ABD-3040D9276FF7}
